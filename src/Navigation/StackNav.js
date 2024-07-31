@@ -9,7 +9,6 @@ const Stack = createNativeStackNavigator();
 const StackNav = () => {
   return (
     <>
-      {/* <StatusBar backgroundColor="#2729F2" barStyle="light-content" /> */}
       <Stack.Navigator
         initialRouteName="DrawerNav"
         screenOptions={{
@@ -28,38 +27,6 @@ const StackNav = () => {
           component={DrawerNav}
           options={{headerShown: false}}
         />
-
-        {/*        
-        <Stack.Screen
-          name="ScanPageResultScreen"
-          component={ScanPageResultScreen}
-          options={{
-            headerStyle: {
-              backgroundColor: '#2729F2',
-            },
-            headerTintColor: 'white',
-            headerTitleStyle: {
-              color: 'white',
-              fontSize: rh(0.02),
-              fontWeight: 'bold',
-            },
-            title: 'AI SCANNED TEXT',
-            headerRight: () => (
-              <TouchableOpacity
-                // onPress={openGallery}
-                style={styles.headerButton}>
-                <Image
-                  source={require('../../assets/DrawerPageIcons/share.png')}
-                  style={{
-                    tintColor: 'white',
-                    width: rh(0.04),
-                    height: rh(0.04),
-                  }}
-                />
-              </TouchableOpacity>
-            ),
-          }}
-        /> */}
       </Stack.Navigator>
     </>
   );
