@@ -4,7 +4,7 @@ import {View, Text} from 'react-native';
 const Winners = () => {
   return (
     <View>
-      <Text>Hello</Text>
+      <Text>Winners</Text>
     </View>
   );
 };

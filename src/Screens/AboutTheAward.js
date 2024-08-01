@@ -4,7 +4,7 @@ import {View, Text} from 'react-native';
 const AboutTheAward = () => {
   return (
     <View>
-      <Text>Hello</Text>
+      <Text>AboutTheAward</Text>
     </View>
   );
 };

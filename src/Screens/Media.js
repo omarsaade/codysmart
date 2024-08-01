@@ -4,7 +4,7 @@ import {View, Text} from 'react-native';
 const Media = () => {
   return (
     <View>
-      <Text>Hello</Text>
+      <Text>Media</Text>
     </View>
   );
 };

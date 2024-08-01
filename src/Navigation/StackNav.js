@@ -11,17 +11,19 @@ const StackNav = () => {
     <>
       <Stack.Navigator
         initialRouteName="DrawerNav"
-        screenOptions={{
-          headerStyle: styles.headerStyle,
-          headerTintColor: 'black',
-          headerBackTitleVisible: false,
-          headerTitleAlign: 'center',
-          headerTitleStyle: {
-            fontSize: rh(0.022),
-            fontWeight: '800',
-            color: 'black',
-          },
-        }}>
+        screenOptions={
+          {
+            // headerStyle: styles.headerStyle,
+            // headerTintColor: 'black',
+            // headerBackTitleVisible: false,
+            // headerTitleAlign: 'center',
+            // headerTitleStyle: {
+            //   fontSize: rh(0.022),
+            //   fontWeight: '800',
+            //   color: 'black',
+            // },
+          }
+        }>
         <Stack.Screen
           name="DrawerNav"
           component={DrawerNav}
